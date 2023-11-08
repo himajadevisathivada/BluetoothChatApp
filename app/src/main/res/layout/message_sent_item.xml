@@ -1,0 +1,18 @@
+<!-- res/layout/message_sent_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sent Message Text"
+        android:background="@drawable/sent_message_bg"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

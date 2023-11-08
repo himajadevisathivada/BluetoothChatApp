@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define a gradient background with a start and end color -->
+    <gradient
+        android:startColor="#3498db" />   <!-- Start color (e.g., blue) --><!-- End color (e.g., darker blue) -->
+    <!-- Gradient angle (you can adjust this) -->
+
+    <!-- Define a larger corner radius for more rounded corners -->
+    <corners android:radius="16dp" />   <!-- Larger corner radius (e.g., 16dp) -->
+
+    <!-- Optionally, you can add padding to create space around the message -->
+    <padding android:left="12dp" android:top="8dp" android:right="12dp" android:bottom="8dp" />
+</shape>
